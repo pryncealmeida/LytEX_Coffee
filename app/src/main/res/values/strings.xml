@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">LytEx_Coffee</string>
     <string name="texto">Uma simples e perfeitamente extraída dose de espresso misturado com leite fresco e chocolate fazem essa bebida deliciosa</string>
+    <string name="ingredientes">Ingredientes</string>
+    <string name="ing1"><![CDATA[> 1 dose espresso]]></string>
+    <string name="ing2"><![CDATA[> 100ml leite]]></string>
+    <string name="ing3"><![CDATA[> 1 colher de chocolate em pó]]></string>
 </resources>

@@ -93,7 +93,69 @@
         android:text="@string/texto"
         android:textAlignment="center"
         android:textSize="16sp"
+        android:padding="24dp"
 
         />
+
+    <TextView
+        android:id="@+id/textoTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/ing1"
+        app:layout_constraintTop_toBottomOf="@id/textoCapp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="15dp"
+        android:text="@string/ingredientes"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingLeft="16dp"
+        />
+
+    <TextView
+        android:id="@+id/ing1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/textoTitle"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="15dp"
+        android:text="@string/ing1"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingLeft="16dp"
+        />
+
+    <TextView
+        android:id="@+id/ing2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/ing1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="15dp"
+        android:text="@string/ing2"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingLeft="16dp"
+        />
+
+    <TextView
+        android:id="@+id/ing3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/ing2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="15dp"
+        android:text="@string/ing3"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingLeft="16dp"
+        />
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
